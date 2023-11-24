@@ -1,0 +1,101 @@
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  h1 {
+    align-self: center;
+    font-size: 70px;
+    font-family: 'Urbanist', sans-serif;
+    color: pink;
+  }
+  
+  canvas {
+    border: 1px solid palevioletred;
+    margin-right: 10px;
+    width: 300px;
+    
+      
+  }
+  #colorPicker {
+    width: 100px;
+    height: 100px;
+    border: 1px solid 
+    
+  }
+
+  
+  
+  input,
+  button {
+    margin: 20px;
+    margin-right: 0px;
+  }
+
+  button {
+      background-image: url(reset.png);
+      background-size: 100px 130px;
+      color: pink;
+      height: 100px;  
+      width: 100px;   
+      border: none;
+      margin-left: 384px;
+      margin-top: -70px;
+  }
+
+  .selected-button {
+    background-color: black;
+    width: 100px;
+    color: white;
+  }
+
+  #rectangleButton{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    left: 420px;
+    top: 280px;
+  }
+
+  #circleButton{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    left: 420px;
+    top: 400px;
+  }
+  
+  #triangleButton{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    left: 420px;
+    top: 340px;
+  }
+
+  #pencilButton{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    left: 35px;
+    top: 340px;
+  }
+  #saveButton{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    left: 35px;
+    top: 400px;
+  }
+  #resetButton{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    left: 35px;
+    top: 280px;
+  }
